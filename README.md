@@ -33,8 +33,9 @@ print(f"Using device: {device}")
 ```
 
 ### 🛠️ Models Overview
-| model  | 
+| **model**  | 
 | ------ |
 | LeNet  | 
 | VGG    | 
 | ResNet | 
+| SENet | 
