@@ -20,7 +20,7 @@
 ### Setup:
 
 ```bash
-!git clone https://github.com/Kimduckba/pytorch_model
+!git clone https://github.com/Kim-Dukbae/pytorch_model
 !pip install torchsummary
 
 import sys
