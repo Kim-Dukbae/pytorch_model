@@ -4,8 +4,8 @@
 |-----|-----|
 
 
-|**Residual_Block**|
-|-----|
+|**Residual_Block**| **Bottleneck** |
+|-----|-----|
 
 
 ## **ConvBlock**
