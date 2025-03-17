@@ -1,6 +1,11 @@
 import torch.optim as optim
 import numpy as np
 
+def real_fake_label(batch_size, device):
+    real_label = torch.ones(batch_size, 1).to(device)
+    fake_label = torch.zeros(batch_size, 1).to(device)
+    return real_label, fake_label
+    
 def train(dataset, params):
     dataloader = DataLoader(dataset, batch_size= params['batch_size'], shuffle=True)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
