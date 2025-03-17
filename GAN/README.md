@@ -12,4 +12,8 @@ params = {
 
 history, gan = train(dataset= mnist_dataset, 
                      params = params)
+
+plot_training_history(history)
+plot_generator(history, params['epochs']-1):
+
 ```
