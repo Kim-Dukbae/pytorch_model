@@ -1,6 +1,6 @@
 # GAN
 
-
+```bash
 params = {
     "latent_dim": 100,
     "hidden_dim": 64,
@@ -12,3 +12,4 @@ params = {
 
 history, gan = train(dataset= mnist_dataset, 
                      params = params)
+```
