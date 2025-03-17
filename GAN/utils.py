@@ -25,3 +25,22 @@ def plot_training_history(history):
     plt.legend()
     plt.grid(True)
     plt.show()
+
+
+def plot_generator(history, num_epoch):
+    gen_imgs = history['generator_images'][num_epoch]  # [25, C, H, W] 형태
+    
+    fig, ax = plt.subplots(5, 5, figsize=(10, 10))
+    count = 0
+    for row in range(5):
+        for col in range(5):
+            img = gen_imgs[count].transpose(1, 2, 0)
+            if gen_imgs[-1] == 1:
+                ax[row, col].imshow(img, cmap= 'gray')
+            else:
+                ax[row, col].imshow(img)
+                
+            ax[row, col].axis('off')
+            count += 1
+
+    plt.show()
