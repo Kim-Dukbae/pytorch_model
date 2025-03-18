@@ -4,7 +4,6 @@
   <img src="asset/generator_discriminator.png" />
 </p>
 
-generator_discriminator.png
 ## Model summary
 ```bash
 
