@@ -1,15 +1,10 @@
    # GAN 강의노트
-GAN(Generative Adversarial Networks)을 역사적 맥락과 실습으로 배우는 정리 노트입니다.
-
-
-<p align="center">
-  <img src="asset/generator_discriminator.png" />
-</p>
+GAN(Generative Adversarial Networks)을 역사적 맥락과 실습으로 배우는 정리 노트입니다.<br>
+강의 내용과 소스코드는 pytoch를 중심으로 작성되어있으며, 정리 노트는 중급자 난이도로 구성했습니다. 
 
 ## 목표
 - GAN의 이론적 기초 이해
-- 실습으로 생성 모델 구현
-- 실용적 응용 탐구
+- 실습으로 생성 모델 직접 구현
 
 
 ## **Contents**
